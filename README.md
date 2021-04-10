@@ -1,4 +1,4 @@
-# ThinkPad X1 Carbon Gen. 4 running macOS (OpenCore bootloader)
+# ThinkPad X1 Carbon Gen 4 running macOS (OpenCore bootloader)
 
 <img align="right" src="/Images/x1c4-big-sur.png" alt="Lenovo Thinkpad X1C4 macOS Hackintosh OpenCore" width="300">
 
@@ -49,13 +49,13 @@ It would mean a lot to me.
 <summary><strong>My Hardware 💻</strong></summary>
 </br>
 
-| Model            | Thinkpad X1 Carbon Gen. 4 20FAS2SV00                                                                       |
+| Model            | Thinkpad X1 Carbon Gen 4 20FCS0TR0U                                                                        |
 | :--------------- | :--------------------------------------------------------------------------------------------------------- |
-| Processor        | Core i7-6600U (2C, 2.6 / 3.4GHz, 4MB) vPro                                                                 |
+| Processor        | Core i5-6300U (2C, 2.4 / 3.0GHz, 4MB) vPro                                                                 |
 | Graphics         | Integrated Intel HD Graphics 520                                                                           |
 | Memory           | 8GB Soldered 1866MHz DDR3, dual-channel                                                                    |
 | Display          | 14" Full HD (1920x1080) IPS, non-touch                                                                     |
-| Storage          | Samsung Evo 970 PRO 500GB NVMe SSD                                                                         |
+| Storage          | Samsung Evo 980 PRO 256GB NVMe SSD                                                                         |
 | Ethernet         | Intel Ethernet Connection I219-LM (Jacksonville)                                                           |
 | WLAN + Bluetooth | 11ac+BT, Intel® Dual Band Wireless-AC 8260NGW, 2x2 card                                                    |
 | Camera           | HD720p resolution, low light sensitive, fixed focus                                                        |
@@ -366,7 +366,8 @@ A [brief guide referencing other guides](/Guides/Bios-Mod.md).
 - [x] [Trackpad, Trackpoint and physical buttons](/Images/VoodooRMI-T460s-trackpad-gestures.gif) `all macOS gestures working thanks to VoodooRMI`
 - [x] SIP and FileVault 2 can be turned on
 - [x] HDMI `with digital audio passthrough`
-- [x] Micore SD Card Reader `slow r/w speed but works`
+- [x] MiniDP 
+- [x] Micro SD Card Reader `slow r/w speed but works`
 
 </details>
 
@@ -374,7 +375,6 @@ A [brief guide referencing other guides](/Guides/Bios-Mod.md).
 <summary><strong>What's not working ⚠️</strong></summary>
 </br>
 
-- [ ] Some users reported Mini DisplayPort is broken for them with latest updates, but it's working for me just fine
 - [ ] Safari DRM `Use Chromium engine to watch Apple TV+, Amazon Prime Video, Netflix and others`
 - [ ] WWAN (needs to be implemented)
 - [ ] Fingerprint Reader
