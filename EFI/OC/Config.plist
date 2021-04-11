@@ -559,20 +559,10 @@
 				<key>model</key>
 				<string>Sunrise Point-LP PMC</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,31,3</string>
-				<key>device-id</key>
-				<data>cJ0AAA==</data>
-				<key>device_type</key>
-				<string>Audio device</string>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
 				<key>layout-id</key>
-				<data>HQAAAA==</data>
-				<key>model</key>
-				<string>100 Series/C230 Series Chipset Family HD Audio Controller</string>
+				<data>AwAAAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x4)</key>
 			<dict>
@@ -997,6 +987,24 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
+				<string>Usbports.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array/>
@@ -1177,7 +1185,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 </string>
+				<string></string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
@@ -1281,20 +1289,7 @@
 	<key>UEFI</key>
 	<dict>
 		<key>ReservedMemory</key>
-		<array>
-			<dict>
-				<key>Address</key>
-				<integer>569344</integer>
-				<key>Comment</key>
-				<string>Fix black screen on wake from hibernation for Lenovo Thinkpad T480/T490/X1C6/T460s/?</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Size</key>
-				<integer>4096</integer>
-				<key>Type</key>
-				<string>Reserved</string>
-			</dict>
-		</array>
+		<array/>
 		<key>APFS</key>
 		<dict>
 			<key>EnableJumpstart</key>
@@ -1315,15 +1310,15 @@
 			<key>AudioCodec</key>
 			<integer>0</integer>
 			<key>AudioDevice</key>
-			<string>PciRoot(0x0)/Pci(0x1f,0x3)</string>
+			<string>PciRoot(0x0)/Pci(0x1F,0x3)</string>
 			<key>AudioOut</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>AudioSupport</key>
 			<true/>
 			<key>MinimumVolume</key>
 			<integer>20</integer>
 			<key>PlayChime</key>
-			<string>Auto</string>
+			<string>Enabled</string>
 			<key>ResetTrafficClass</key>
 			<false/>
 			<key>SetupDelay</key>
@@ -1444,8 +1439,6 @@
 			<key>UnblockFsConnect</key>
 			<false/>
 		</dict>
-		<key>ReservedMemory</key>
-		<array/>
 		<key>AppleInput</key>
 		<dict>
 			<key>AppleEvent</key>
