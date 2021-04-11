@@ -427,7 +427,9 @@ A [brief guide referencing other guides](/Guides/Bios-Mod.md).
 | CPU            | Single-Core | Multi-Core |
 | :------------- | ----------: | ---------: |
 | Cinebench r20  |         329 |        816 |
-| Geekbench 5    |         609 |       1562 |
+| Geekbench 5    |         728 |       1669 |
+| **GPU**        |  **OpenCL** |  **Metal** |
+| Geekbench 5    |        4013 |       3972 |
 
 <small>macOS 11.2.3, EFI release 0.6.8</small>
 
