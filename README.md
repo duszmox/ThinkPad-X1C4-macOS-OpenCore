@@ -392,24 +392,24 @@ A [brief guide referencing other guides](/Guides/Bios-Mod.md).
 <summary><strong>Update tracker 🔄</strong></summary>
 </br>
 
-| [EFI Release](https://github.com/duszmox/ThinkPad-X1C4-macOS-OpenCore/releases)                | 0.6.8  |
+| [EFI Release](https://github.com/duszmox/ThinkPad-X1C4-macOS-OpenCore/releases)                | 0.6.9  |
 | :--------------------------------------------------------------------------------------------- | :----- |
-| [MacOS](https://www.apple.com/macos/)                                                          | 11.2.3 |
-| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases)                                | 0.6.8  |
-| [Lilu](https://github.com/acidanthera/Lilu/releases)                                           | 1.5.2  |
-| [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                               | 1.2.2  |
+| [MacOS](https://www.apple.com/macos/)                                                          | 11.3.1 |
+| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases)                                | 0.6.9  |
+| [Lilu](https://github.com/acidanthera/Lilu/releases)                                           | 1.5.3  |
+| [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                               | 1.2.3  |
 | [YogaSMC](https://github.com/zhen-zen/YogaSMC/releases)                                        | 1.4.3  |
 | [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases)                         | 1.4.9  |
 | [AppleALC](https://github.com/acidanthera/AppleALC/releases)                                   | 1.5.9  |
 | [VoodooPS2Controller](https://github.com/acidanthera/VoodooPS2/releases)                       | 2.2.2  |
-| [VoodooRMI](https://github.com/VoodooSMBus/VoodooRMI/releases)                                 | 1.3.2  |
-| [IntelMausi](https://github.com/acidanthera/IntelMausi/releases)                               | 1.0.5  |
+| [VoodooRMI](https://github.com/VoodooSMBus/VoodooRMI/releases)                                 | 1.3.3  |
+| [IntelMausi](https://github.com/acidanthera/IntelMausi/releases)                               | 1.0.6  |
 | [HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases)                   | 1.4.0  |
 | [CPUFriend](https://github.com/acidanthera/CPUFriend/releases)                                 | 1.2.3  |
 | [NVMeFix](https://github.com/acidanthera/NVMeFix/releases)                                     | 1.0.6  |
 | [RTCMemoryFixup](https://github.com/acidanthera/RTCMemoryFixup/releases)                       | 1.0.7  |
 | [AirPortOpenBSD](https://github.com/a565109863/AirPortOpenBSD/releases/)                       | 2.0.6  |
-| [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases)                            | 1.3.0  |
+| [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases)                            | 2.0.0  |
 | [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) | 1.1.2  |
 | [AppleBacklightSmoother](https://github.com/hieplpvip/AppleBacklightSmoother/releases)         | 1.0.2  |
 | [BrightnessKeys](https://github.com/acidanthera/BrightnessKeys/releases)                       | 1.0.1  |
