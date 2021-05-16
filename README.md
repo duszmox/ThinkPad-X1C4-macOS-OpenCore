@@ -2,8 +2,8 @@
 
 <img align="right" src="/Images/x1c4-big-sur.png" alt="Lenovo Thinkpad X1C4 macOS Hackintosh OpenCore" width="300">
 
-[![macOS](https://img.shields.io/badge/macOS-11.2.3-blue)](https://developer.apple.com/documentation/macos-release-notes)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.8-green)](https://github.com/acidanthera/OpenCorePkg)
+[![macOS](https://img.shields.io/badge/macOS-11.3.1-blue)](https://developer.apple.com/documentation/macos-release-notes)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.9-green)](https://github.com/acidanthera/OpenCorePkg)
 [![Model](https://img.shields.io/badge/Model-20FB*/20FC*-lightgrey)](https://psref.lenovo.com/Product/ThinkPad/ThinkPad_X1_Carbon_4th_Gen)
 [![BIOS](https://img.shields.io/badge/BIOS-1.48-yellow)](https://pcsupport.lenovo.com/hu/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x1-carbon-type-20fb-20fc/20fb/downloads/driver-list/component?name=BIOS%2FUEFI)
 [![License](https://img.shields.io/badge/license-MIT-purple)](/LICENSE)
