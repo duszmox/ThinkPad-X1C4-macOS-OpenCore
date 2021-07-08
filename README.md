@@ -1,6 +1,6 @@
 # ThinkPad X1 Carbon Gen 4 running macOS (OpenCore bootloader)
 
-<img align="right" src="/Images/x1c4-big-sur.png" alt="Lenovo Thinkpad X1C4 macOS Hackintosh OpenCore" width="300">
+<img align="right" src="/Images/x1c4-monterey.png" alt="Lenovo Thinkpad X1C4 macOS Hackintosh OpenCore" width="300">
 
 [![macOS](https://img.shields.io/badge/macOS-11.4-blue)](https://developer.apple.com/documentation/macos-release-notes)
 [![macOS-beta](https://img.shields.io/badge/macOS–Beta-12_beta–2-orange)](https://developer.apple.com/documentation/macos-release-notes/macos-12-beta-release-notes)
