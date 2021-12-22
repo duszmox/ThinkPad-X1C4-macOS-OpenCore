@@ -2,10 +2,10 @@
 
 <img align="right" src="/Images/x1c4-monterey.png" alt="Lenovo Thinkpad X1C4 macOS Hackintosh OpenCore" width="300">
 
-[![macOS](https://img.shields.io/badge/macOS-11.4-blue)](https://developer.apple.com/documentation/macos-release-notes)
-[![macOS-beta](https://img.shields.io/badge/macOS–Beta-12_beta–2-orange)](https://developer.apple.com/documentation/macos-release-notes/macos-12-beta-release-notes)
+[![macOS](https://img.shields.io/badge/macOS-12.1-blue)](https://developer.apple.com/documentation/macos-release-notes)
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.7.1-green)](https://github.com/acidanthera/OpenCorePkg)
+
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.7.6-green)](https://github.com/acidanthera/OpenCorePkg)
 [![Model](https://img.shields.io/badge/Model-20FB*/20FC*-lightgrey)](https://psref.lenovo.com/Product/ThinkPad/ThinkPad_X1_Carbon_4th_Gen)
 [![BIOS](https://img.shields.io/badge/BIOS-1.48-yellow)](https://pcsupport.lenovo.com/hu/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x1-carbon-type-20fb-20fc/20fb/downloads/driver-list/component?name=BIOS%2FUEFI)
 [![License](https://img.shields.io/badge/license-MIT-purple)](/LICENSE)
@@ -18,7 +18,7 @@ Should you find an error or improve anything — whether in the config or in the
 If you find my work useful, please consider donating via PayPal.
 It would mean a lot to me.
 
-**This repo has now support for macOS 12 Monterey beta. It isn't a stable version yet, so it's not reccommended for daily use, but there is the option for it. If you encounter any problems please open a new isue. The OS has support from EFI update [0.7.1](https://github.com/duszmox/ThinkPad-X1C4-macOS-OpenCore/releases/tag/0.7.1), and you can install it as you would install a normal update.**
+
 
 
 [![donate](https://img.shields.io/badge/-buy%20me%20a%20coffee-orange)](https://www.paypal.com/donate?hosted_button_id=UW5DT28YP3QQUS)
@@ -398,25 +398,25 @@ A [brief guide referencing other guides](/Guides/Bios-Mod.md).
 <summary><strong>Update tracker 🔄</strong></summary>
 </br>
 
-| [EFI Release](https://github.com/duszmox/ThinkPad-X1C4-macOS-OpenCore/releases)                | 0.7.1  |
+| [EFI Release](https://github.com/duszmox/ThinkPad-X1C4-macOS-OpenCore/releases)                | 0.7.6  |
 | :--------------------------------------------------------------------------------------------- | :----- |
-| [MacOS](https://www.apple.com/macos/)                                                          | 11.4 / 12 beta - 2 |
-| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases)                                | 0.7.1  |
-| [Lilu](https://github.com/acidanthera/Lilu/releases)                                           | 1.5.4  |
-| [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                               | 1.2.5  |
+| [MacOS](https://www.apple.com/macos/)                                                          | 12.1 |
+| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases)                                | 0.7.6  |
+| [Lilu](https://github.com/acidanthera/Lilu/releases)                                           | 1.5.8  |
+| [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                               | 1.2.8  |
 | [YogaSMC](https://github.com/zhen-zen/YogaSMC/releases)                                        | 1.5.1  |
-| [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases)                         | 1.5.1  |
-| [AppleALC](https://github.com/acidanthera/AppleALC/releases)                                   | 1.6.1  |
-| [VoodooPS2Controller](https://github.com/acidanthera/VoodooPS2/releases)                       | 2.2.4  |
-| [VoodooRMI](https://github.com/VoodooSMBus/VoodooRMI/releases)                                 | 1.3.3  |
+| [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases)                         | 1.5.5  |
+| [AppleALC](https://github.com/acidanthera/AppleALC/releases)                                   | 1.6.7  |
+| [VoodooPS2Controller](https://github.com/acidanthera/VoodooPS2/releases)                       | 2.2.7  |
+| [VoodooRMI](https://github.com/VoodooSMBus/VoodooRMI/releases)                                 | 1.3.4  |
 | [IntelMausi](https://github.com/acidanthera/IntelMausi/releases)                               | 1.0.7  |
-| [HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases)                   | 1.4.1  |
+| [HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases)                   | 1.4.5  |
 | [CPUFriend](https://github.com/acidanthera/CPUFriend/releases)                                 | 1.2.4  |
 | [NVMeFix](https://github.com/acidanthera/NVMeFix/releases)                                     | 1.0.9  |
 | [RTCMemoryFixup](https://github.com/acidanthera/RTCMemoryFixup/releases)                       | 1.0.7  |
 | [AirPortOpenBSD](https://github.com/a565109863/AirPortOpenBSD/releases/)                       | 2.0.6  |
-| [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases)                            | 2.0.0b  |
-| [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) | 2.0.0RC-1  |
+| [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases)                            | 2.1.0a  |
+| [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) | 2.0.1  |
 | [AppleBacklightSmoother](https://github.com/hieplpvip/AppleBacklightSmoother/releases)         | 1.0.2  |
 | [BrightnessKeys](https://github.com/acidanthera/BrightnessKeys/releases)                       | 1.0.2  |
 | [Sinetek-rtsx](https://github.com/cholonam/Sinetek-rtsx/releases)                              | 9.0    |
